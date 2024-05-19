@@ -5,6 +5,10 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/create', 'Home::create');
-$routes->get('/read', 'Home::read');
-$routes->get('/destroy', 'Home::destroy');
+$routes->get('/', 'HomeController::index');
+$routes->get('/shop', 'ShopController::getAllBarang');
+$routes->get('/cart', 'CartController::index');
+$routes->get('/cart/add/(:num)', 'CartController::addToCart/$1');
+$routes->get('/cart/delete/(:num)', 'CartController::deleteFromCart/$1');
+$routes->get('/cart/tambah-barang/(:num)', 'CartController::tambahBarang/$1');
+$routes->get('/cart/kurangi-barang/(:num)', 'CartController::kurangiBarang/$1');
