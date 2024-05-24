@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdiShop</title>
+    <title>Arxy</title>
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -16,16 +16,14 @@
     <!-- Start Header/Navigation -->
     <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark sticky-top" arial-label="Furni navigation bar">
         <div class="container">
-            <a class="navbar-brand" href="#">AdiShop<span>.</span></a>
+            <a class="navbar-brand" href="#">Arxy<span>.</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsFurni">
                 <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="active"><a class="nav-link" href="<?= base_url('/shop') ?>">Shop</a></li>
+                    <li><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
+                    <li><a class="nav-link" href="<?= base_url('/shop') ?>">Shop</a></li>
                     <li><a class="nav-link" href="#">About us</a></li>
                     <li><a class="nav-link" href="#">Services</a></li>
                     <li><a class="nav-link" href="#">Blog</a></li>
@@ -47,7 +45,7 @@
         <div class="container relative">
 
             <div class="sofa-img">
-                <img src="images/sofa.png" alt="Image" class="img-fluid">
+                <img src="<?= base_url('images/produk/produk-1.png') ?>" alt="Image" class="img-fluid">
             </div>
 
             <div class="row">
@@ -75,7 +73,7 @@
 
             <div class="row g-5 mb-5">
                 <div class="col-lg-4">
-                    <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Adi<span>.</span></a></div>
+                    <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Arxy<span>.</span></a></div>
                     <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
 
                     <ul class="list-unstyled custom-social">

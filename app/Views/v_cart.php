@@ -39,7 +39,7 @@
                                     <?php foreach ($cart as $item) : ?>
                                         <tr>
                                             <td class="product-thumbnail">
-                                                <img src="<?= base_url('images/' . $item['gambar']) ?>" alt="gambar" class="img-fluid">
+                                                <img src="<?= base_url('images/produk/' . $item['gambar']) ?>" alt="gambar" class="img-fluid">
                                             </td>
                                             <td class="product-nama_barang">
                                                 <h2 class="h5 text-black"><?= $item['nama_barang'] ?></h2>
@@ -99,7 +99,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                                        <a class="btn btn-black btn-lg py-3 btn-block" href="<?= base_url('checkout') ?>">Proceed To Checkout</a>
                                     </div>
                                 </div>
                             </div>

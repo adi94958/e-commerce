@@ -22,7 +22,7 @@
                 <?php foreach ($barang as $item) : ?>
                     <div class="col-12 col-md-4 col-lg-3 mb-5">
                         <a class="product-item" href="<?= base_url('/cart/add/' . $item['id_barang']) ?>">
-                            <img src="<?= base_url('images/' . $item['gambar']) ?>" class="img-fluid product-thumbnail">
+                            <img src="<?= base_url('images/produk/' . $item['gambar']) ?>" class="img-fluid product-thumbnail">
                             <h3 class="product-title"><?= $item['nama_barang']; ?></h3>
                             <strong class="product-price">Rp. <?= number_format($item['harga'], 0, ',', '.'); ?></strong>
                             <span class="icon-cross">

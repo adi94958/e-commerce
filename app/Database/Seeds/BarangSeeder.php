@@ -10,52 +10,34 @@ class BarangSeeder extends Seeder
     {
         $data = [
             [
-                'nama_barang' => 'Nordic Chair',
-                'harga' => '50000',
+                'nama_barang' => 'Vest coquette',
+                'harga' => '250000',
                 'stok' => 10,
-                'gambar' => 'product-3.png',
+                'gambar' => 'produk-1.jpg',
             ],
             [
-                'nama_barang' => 'Kruzo Aero Chair',
-                'harga' => '78000',
+                'nama_barang' => 'Long vest',
+                'harga' => '210000',
                 'stok' => 5,
-                'gambar' => 'product-2.png',
+                'gambar' => 'produk-2.jpg',
             ],
             [
-                'nama_barang' => 'Ergonomic Chair',
-                'harga' => '43000',
+                'nama_barang' => 'Crop vest',
+                'harga' => '220000',
                 'stok' => 8,
-                'gambar' => 'product-3.png',
+                'gambar' => 'produk-3.jpg',
             ],
             [
-                'nama_barang' => 'Modern Chair',
-                'harga' => '60000',
+                'nama_barang' => 'Feminim vest',
+                'harga' => '180000',
                 'stok' => 7,
-                'gambar' => 'product-1.png',
+                'gambar' => 'produk-4.jpg',
             ],
             [
-                'nama_barang' => 'Simple Chair',
-                'harga' => '30000',
+                'nama_barang' => 'Minimalist vest',
+                'harga' => '200000',
                 'stok' => 15,
-                'gambar' => 'product-4.png',
-            ],
-            [
-                'nama_barang' => 'Classic Chair',
-                'harga' => '70000',
-                'stok' => 4,
-                'gambar' => 'product-5.png',
-            ],
-            [
-                'nama_barang' => 'Luxury Chair',
-                'harga' => '120000',
-                'stok' => 3,
-                'gambar' => 'product-6.png',
-            ],
-            [
-                'nama_barang' => 'Wooden Chair',
-                'harga' => '40000',
-                'stok' => 12,
-                'gambar' => 'product-7.png',
+                'gambar' => 'produk-5.jpg',
             ],
         ];
 
